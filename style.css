@@ -1,0 +1,40 @@
+/* Global */
+html {
+	font-size: 14px;
+}
+
+h1, h3, p {
+	margin: 5px 0px;
+}
+
+pre {
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+
+
+/* Profil */
+#profil {
+	display: none;
+	margin-bottom: 10px;
+}
+
+#profil img {
+	display: none;
+	margin-right: 10px;
+}
+
+#profil-text {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#summary, #specialties, #positions {
+	display: none;
+	margin-top: 10px;
+}
+
+#positions .company {
+	font-weight: bold;
+}

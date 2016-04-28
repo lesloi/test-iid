@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8" />
+    <title>Sign In with Linkedn</title>
+    
+    <link rel="stylesheet" href="/style.css" />
+    
+    <!-- LinkedIn's JavaScript SDK -->
+    <script type="text/javascript" src="//platform.linkedin.com/in.js">
+      api_key:   	[API_KEY]
+      authorize: 	true
+      lang:				fr_FR
+    </script>
+  </head>
+  <body>
+  	<div id="profil">
+			<img src="" alt="Photo de profil" />
+			<div id="profil-text">
+  			<h1></h1>
+  			<h3></h3>
+  			<p>Nombre de relations : <span id="num-connections"></span></p>
+  			<a href="">Lien vers le profil</a>
+			</div>
+		</div>
+		<div id="summary">
+			Profil :
+			<pre></pre>
+		</div>
+		<div id="positions">
+			<span class="startDate"></span> à <span class="endDate"></span> - <span class="company"></span> <span class="location"></span>
+			<pre></pre>
+		</div>
+		<div id="specialties">
+			Spécialités :
+			<pre></pre>
+		</div>
+
+  	<!-- Sign In with LinkedIn -->
+		<script type="in/Login"></script>
+		
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+		<script src="/script.js"></script>
+  </body>
+</html>
