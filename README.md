@@ -1,8 +1,8 @@
-# test-iid
+# test-linkedin
 
 ## Description
 
-Test-iid permet de récupérer toutes les informations possibles d'une personne connectée sur LinkedIn
+Test-linkedin permet de récupérer toutes les informations possibles d'une personne connectée sur LinkedIn
 
 ## Configuration
 
